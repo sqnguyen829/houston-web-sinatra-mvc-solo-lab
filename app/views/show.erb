@@ -1,0 +1,14 @@
+<h1> Puppy Name: <%= @puppy.name%> <h1>
+<p><%= @puppy.breed %> </p>
+
+<a href="/puppies">
+<button>Back to all puppies</button>
+</a>
+
+<a href="/puppies/<%=@puppy.id%>/edit">
+<button>Edit puppy</button>
+</a>
+
+<a href="/puppies/<%=@puppy.id%>/delete">
+<button>Kill puppy</button>
+</a>

@@ -6,4 +6,4 @@ if ActiveRecord::Base.connection.migration_context.needs_migration?
   
 
 
-run ApplicationController
+run PuppiesController
